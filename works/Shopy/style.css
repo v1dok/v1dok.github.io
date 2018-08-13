@@ -1,0 +1,296 @@
+@font-face {
+  font-family: Harmonia;
+  src: url("fonts/HarmoniaSansProCyr-Regular.otf");
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Harmonia, sans-serif;
+  font-size: 16px;
+  color: #43515d;
+}
+a {
+  text-decoration: none;
+  color: #43515d;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+}
+.clear,
+.container:after,
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.small-header {
+  padding: 20px 0;
+  background: #fff;
+  border-bottom: 1px solid #f2f2f2;
+}
+.social {
+  margin-right: -10px;
+  margin-left: 0;
+  font-size: 0.75em;
+}
+.social li {
+  float: left;
+}
+.social ul {
+  padding-right: 0;
+}
+.social a {
+  padding: 10px 10px;
+}
+.social a:hover {
+  color: #ff7013;
+}
+.mail a {
+  margin-right: 20px;
+}
+.mail a,
+.tel a {
+  font-size: 0.75em;
+}
+.mail a:hover,
+.tel a:hover {
+  color: #ff7013;
+}
+.mail i,
+.tel i {
+  color: #ff7013;
+  margin-right: 5px;
+}
+.big-header {
+  padding-top: 40px;
+}
+.logo p {
+  font-size: 0.82em;
+  color: #8d949a;
+}
+.nav {
+  padding: 10px;
+}
+.nav li {
+  float: left;
+}
+.nav li.active a {
+  color: #ff7013;
+}
+.nav a {
+  padding: 15px;
+}
+.nav a:hover {
+  color: #ff7013;
+}
+.additional ul {
+  margin-right: -10px;
+}
+.additional li {
+  float: left;
+}
+.additional li:last-child a {
+  color: #ff7013;
+}
+.additional a {
+  font-size: 1.3em;
+  padding: 10px;
+}
+.additional a:hover {
+  color: #ff7013;
+}
+.additional span {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #43515d;
+  display: block;
+  position: relative;
+  top: -40px;
+  left: 13px;
+  color: #fff;
+  font-size: 0.5em;
+  padding: 2px 5px;
+}
+.footer {
+  padding: 80px 0;
+}
+.payments h5 {
+  color: #ff7013;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.payments span {
+  background: url("images/payments-sprite.png");
+  height: 19px;
+  width: 30px;
+  display: block;
+}
+.payments span.visa {
+  background-position: -72px 0;
+}
+.payments span.master {
+  background-position: -108px 0;
+}
+.payments a {
+  float: left;
+  padding-right: 5px;
+}
+.payments a:hover {
+  opacity: 0.5;
+}
+.featured {
+  background: url("images/feature.jpg");
+  height: 650px;
+  background-size: cover;
+}
+.feature-description {
+  margin-left: 100px;
+}
+.feature-description h2 {
+  text-transform: uppercase;
+  color: #ff7013;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.feature-description h4 {
+  font-size: 1.123em;
+}
+.feature-description .price {
+  margin-top: 60px;
+  font-size: 1.2em;
+}
+.feature-description .price p {
+  float: left;
+}
+.feature-description .price a {
+  float: left;
+  margin-left: 20px;
+  color: #ff7013;
+}
+.inner-featured {
+  padding-top: 200px;
+}
+.controller a {
+  width: 10px;
+  background: #fff;
+  height: 20px;
+  display: block;
+  margin-top: 10px;
+}
+.controller a.active {
+  background: #ff7013;
+  height: 40px;
+}
+.arrivals {
+  background: #f6f8f9;
+}
+.heading {
+  padding: 80px 0;
+  text-align: center;
+}
+.heading h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 20px 0;
+}
+.heading h3 span {
+  color: #ff7013;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 50px;
+}
+.block {
+  float: left;
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.block a:hover> .product {
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+}
+.product {
+  height: 365px;
+  background: #fff;
+  text-align: center;
+  padding-top: 30px;
+}
+.product h4 {
+  padding: 20px 0;
+  font-size: 1.2em;
+}
+.product p {
+  font-size: 1.2em;
+  color: #ff7013;
+}
+.scroll {
+  height: 60px;
+  background: #fff;
+  margin-bottom: 50px;
+  padding: 25px 0;
+}
+.scroll ul {
+  text-align: center;
+}
+.scroll a {
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 5px;
+  background: #ff7013;
+  float: left;
+  margin: 0 5px;
+}
+.join {
+  background: #fff;
+  padding: 30px 40px;
+  margin-bottom: 100px;
+}
+.join >div {
+  line-height: 50px;
+}
+.join h3 {
+  text-transform: uppercase;
+  color: #ff7013;
+  float: left;
+}
+.join p {
+  float: left;
+  margin-left: 20px;
+}
+.join button {
+  color: #fff;
+  background: #ff7013;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  font-family: Harmonia;
+}
+.join input[type="text"] {
+  padding: 13px 25px;
+  font-family: Harmonia;
+}

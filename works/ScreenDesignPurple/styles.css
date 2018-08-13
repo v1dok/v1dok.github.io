@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand|Rokkitt");
+@font-face {
+  font-family: MyriadPro;
+  src: url("fonts/MyriadPro.otf");
+}
+@font-face {
+  font-family: MyriadProCond;
+  src: url("fonts/MyriadProCond.ttf");
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  font-size: 16px;
+}
+.header {
+  background: url("images/header-image.jpg") no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.header_inner {
+  background-color: rgba(224,183,181,0.7);
+  height: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding-bottom: 5em;
+}
+.logo {
+  margin-top: -10px;
+  float: left;
+  font-family: MyriadProCond;
+}
+.logo a {
+  color: #fff;
+  font-size: 1.3em;
+}
+.navigation {
+  float: right;
+  font-family: MyriadProCond;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation a {
+  color: #fff;
+  padding: 15px;
+}
+.navigation a:last-child {
+  padding-right: 0;
+}
+.navigation a:hover {
+  color: #9b59b6;
+}
+.row {
+  padding-top: 50px;
+}
+.row:after,
+.clear,
+.line:after,
+.form-row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.caption {
+  text-align: center;
+  color: #fff;
+  margin: 100px 0;
+}
+.caption .main {
+  font-family: Rokkitt;
+  font-size: 3.74em;
+  border-bottom: 1px solid #fff;
+  padding: 15px;
+}
+.caption .ext {
+  font-family: QuickSand;
+  font-size: 1.5em;
+  padding: 20px;
+}
+.top-button {
+  position: relative;
+  font-family: Rokkitt;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: #9b59b6;
+  padding: 8px 40px;
+  border: 6px solid rgba(155,89,182,0.59);
+  background-clip: padding-box;
+  z-index: 1;
+}
+.button-container {
+  text-align: center;
+  margin-top: -14px;
+}
+.introduction {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+  margin-top: 6em;
+  font-family: MyriadPro;
+}
+.introduction .text {
+  line-height: 1.6em;
+  font-size: 1.2em;
+  color: #95a5a6;
+}
+.heading {
+  padding: 2.5em;
+}
+.heading h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #9b59b6;
+}
+.workflow {
+  margin-top: 5em;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.skill {
+  padding: 0 30px;
+  text-align: center;
+  float: left;
+  width: 33.33333333%;
+  font-family: MyriadPro;
+}
+.skill h2 {
+  color: #9b59b6;
+  font-size: 1.3em;
+  padding: 20px;
+}
+.skill p {
+  text-align: justify;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #95a5a6;
+}
+.line {
+  margin-top: 3.5em;
+}
+.work {
+  width: 400px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+}
+.work:last-child {
+  float: right;
+}
+.work1 {
+  background-image: url("images/image1.jpg");
+}
+.work2 {
+  background-image: url("images/image2.jpg");
+}
+.work3 {
+  background-image: url("images/image3.jpg");
+}
+.work4 {
+  background-image: url("images/image4.jpg");
+}
+.filter {
+  width: 100%;
+  height: 100%;
+  background: rgba(224,183,181,0.5);
+  position: relative;
+}
+.filter:hover {
+  background: none;
+}
+.filter:hover .work-hover {
+  display: block;
+}
+.work-hover {
+  display: none;
+  height: 100px;
+  width: 100%;
+  background: #9b59b6;
+  position: absolute;
+  bottom: 0;
+  border-top: 6px solid rgba(155,89,182,0.5);
+  padding: 20px;
+}
+.work-hover h3 {
+  color: #fff;
+  font-family: Rokkitt;
+  font-size: 1.6em;
+}
+.work-hover p {
+  font-family: MyriadPro;
+  color: #6b3f7d;
+  padding-top: 3px;
+}
+.button-more {
+  margin-top: 5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.button-more a {
+  padding: 10px;
+  color: #fff;
+  padding: 15px 30px;
+  background: #9b59b6;
+  font-family: Rokkitt;
+  font-size: 1.3em;
+}
+.button-more a:hover {
+  opacity: 0.7;
+}
+.container-line {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.container2 {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.contact {
+  margin-top: 4em;
+  font-family: Rokkitt;
+}
+.contact h2 {
+  font-size: 3.7em;
+  color: #9b59b6;
+}
+.contact button {
+  border: none;
+  background: #9b59b6;
+  color: #fff;
+  font-family: Rokkitt;
+  font-size: 2em;
+  padding: 5px 30px;
+  float: right;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.contact button:hover {
+  opacity: 0.8;
+}
+.contact-heading {
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+.form-row {
+  margin: 0 -15px;
+}
+.input input,
+.textarea textarea {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border: none;
+  background: #e4e8e8;
+  font-family: Rokkitt;
+  font-size: 1.875em;
+}
+.input input:focus,
+.textarea textarea:focus {
+  background: #eff1f1;
+}
+.input input::-webkit-input-placeholder,
+.textarea textarea::-webkit-input-placeholder {
+  color: #cecece;
+}
+.input input:-ms-input-placeholder,
+.textarea textarea:-ms-input-placeholder {
+  color: #cecece;
+}
+.input input::-ms-input-placeholder,
+.textarea textarea::-ms-input-placeholder {
+  color: #cecece;
+}
+.input input::placeholder,
+.textarea textarea::placeholder {
+  color: #cecece;
+}
+.textarea textarea {
+  margin-top: 30px;
+  resize: none;
+  height: auto;
+}
+.col {
+  float: left;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.footer {
+  margin-top: 4em;
+  height: 240px;
+  background: #9b59b6;
+}
+.soc-float {
+  float: left;
+  width: 33.33333333%;
+  text-align: center;
+  margin-top: -50px;
+}
+.soc-float:first-child {
+  text-align: left;
+}
+.soc-float:last-child {
+  text-align: right;
+}
+.soc-float a {
+  background: #f6f6f6;
+  border: 6px solid rgba(155,89,182,0.59);
+}
+.twitter {
+  content: url("images/twitter.png");
+  position: relative;
+  top: 15px;
+  padding: 25px 25px;
+}
+.fb {
+  content: url("images/fb.png");
+  position: relative;
+  top: 15px;
+  padding: 26px 37px;
+}
+.dribble {
+  content: url("images/dribble.png");
+  position: relative;
+  top: 15px;
+  padding: 25px 28px;
+}
+@media screen and (max-width: 1030px) {
+  .container {
+    max-width: 850px;
+  }
+  .skill {
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .line {
+    margin-top: 0;
+    float: none;
+  }
+  .work {
+    margin-top: 3em;
+    float: none;
+  }
+
+  .col {
+    float: none !important;
+    width: 100% !important;
+    margin-top: 30px;
+  }
+  .container,
+  .container2 {
+    max-width: 700px;
+  }
+  .skill {
+    width: 70%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 3em;
+  }
+  .workflow {
+    margin: 0 auto;
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container,
+  .container2 {
+    max-width: 500px;
+  }
+  .skill {
+    width: 100%;
+  }
+}
